@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="443d8463-54fa-4b33-b5f2-cea90ce28a85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PercolationBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PercolationUF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/InteractivePercolationVisualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/InteractivePercolationVisualizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/PercolationDFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/PercolationDFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/TestUFPercolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/TestUFPercolation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InteractivePercolationVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InteractivePercolationVisualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PercolationBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercolationBFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PercolationDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercolationDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PercolationDFSFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercolationDFSFast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestUFPercolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestUFPercolation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,9 +73,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestUFPercolation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P6-Percolation-Fall19" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestUFPercolation" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.InteractivePercolationVisualizer" />
+        <item itemvalue="JUnit.TestUFPercolation" />
         <item itemvalue="JUnit.TestDFSPercolation" />
       </list>
     </recent_temporary>
@@ -99,54 +115,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

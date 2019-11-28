@@ -32,6 +32,13 @@ public class PercolationDFS implements IPercolate {
 			Arrays.fill(row, BLOCKED);
 	}
 
+
+	/**
+	 * Marks specified rows and columns as open
+	 * @param row
+	 *            row index in range [0,N-1]
+	 * @param col
+	 */
 	public void open(int row, int col) {
 		
 		if (! inBounds(row,col)) {
@@ -45,6 +52,13 @@ public class PercolationDFS implements IPercolate {
 		updateOnOpen(row,col);
 	}
 
+	/**
+	 * Checks if the specified row and column is open
+	 * @param row
+	 *            row index in range [0,N-1]
+	 * @param col
+	 * @return boolean indicating whether site is open
+	 */
 	public boolean isOpen(int row, int col) {
 		
 		if (! inBounds(row,col)) {
@@ -54,6 +68,13 @@ public class PercolationDFS implements IPercolate {
 		return myGrid[row][col] != BLOCKED;
 	}
 
+	/**
+	 * Checks if the specified row and column is full
+	 * @param row
+	 *            row index in range [0,N-1]
+	 * @param col
+	 * @return boolean to check if site is full
+	 */
 	public boolean isFull(int row, int col) {
 		
 		if (! inBounds(row,col)) {
@@ -64,6 +85,9 @@ public class PercolationDFS implements IPercolate {
 		return myGrid[row][col] == FULL;
 	}
 
+	/**
+	 * Clears all full sites if they are full and mark them as open
+	 */
 	private void clearFull() {
 		for (int i = 0; i < myGrid.length; i++) {
 			for (int j = 0; j < myGrid[0].length; j++) {
@@ -74,12 +98,21 @@ public class PercolationDFS implements IPercolate {
 		}
 	}
 
+	/**
+	 * called when a site is opened, calls dfs to mark cells as full if appropriate
+	 * @param row
+	 * @param col
+	 */
 	protected void updateOnOpen(int row, int col) {
 		clearFull();
 		for (int k = 0; k < myGrid[0].length; k++)
 			dfs(0, k);
 	}
 
+	/**
+	 * Checks if the system percolates
+	 * @return boolean if the system percolates
+	 */
 	public boolean percolates() {
 		for (int col = 0; col < myGrid[myGrid.length - 1].length; col++)
 			if (isFull(myGrid.length - 1, col))
@@ -111,6 +144,10 @@ public class PercolationDFS implements IPercolate {
 		dfs(row + 1, col);
 	}
 
+	/**
+	 * Gets the number of open sites in the system
+	 * @return int indicating the number of open sites in the system
+	 */
 	public int numberOfOpenSites() {
 		return myOpenCount;
 	}

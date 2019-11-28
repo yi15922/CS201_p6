@@ -1,3 +1,6 @@
+/**
+ * extends PercolationDFS, but is a faster implementation
+ */
 public class PercolationDFSFast extends PercolationDFS{
 
     /**

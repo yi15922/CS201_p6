@@ -2,6 +2,9 @@ import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
+/**
+ * Extends PercolationDFSFast but uses BFS instead of DFS as search method
+ */
 public class PercolationBFS extends PercolationDFSFast {
     /**
      * Initialize a grid so that all cells are blocked.
@@ -12,6 +15,11 @@ public class PercolationBFS extends PercolationDFSFast {
         super(n);
     }
 
+    /**
+     * Updates appropriate sites as full, using breadth first search.
+     * @param row
+     * @param col
+     */
     @Override
     protected void dfs(int row, int col) {
 
@@ -19,7 +27,7 @@ public class PercolationBFS extends PercolationDFSFast {
         LinkedList<Integer> cellList = new LinkedList<>();
         cellList.add(row * myGrid.length + col);
         while (cellList.size() > 0) {
-            System.out.println("Searching... ");
+            //System.out.println("Searching... ");
             int current = cellList.pop();
             int cRow = current / myGrid.length;
             int cCol = current % myGrid.length;
@@ -40,7 +48,5 @@ public class PercolationBFS extends PercolationDFSFast {
                 }
             }
         }
-
     }
-
 }
