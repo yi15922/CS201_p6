@@ -33,6 +33,7 @@ public class PercolationDFSFast extends PercolationDFS{
 
             if (myGrid[nRow][nCol] == FULL) {
                 dfs(row, col);
+                return;
             }
         }
 

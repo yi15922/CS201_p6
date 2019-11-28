@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="443d8463-54fa-4b33-b5f2-cea90ce28a85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PercolationDFSFast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P6-Percolation-Fall19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/P6-Percolation-Fall19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/IPercolate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/IPercolate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/IUnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/IUnionFind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/InteractivePercolationVisualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/InteractivePercolationVisualizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/PercolationDFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/PercolationDFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/PercolationStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/PercolationStats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/QuickFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/QuickFind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/QuickUW.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/QuickUW.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/QuickUWPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/QuickUWPC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/StdDraw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/StdDraw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/StdStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/StdStats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/TestDFSPercolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/TestDFSPercolation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/TestUFPercolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/TestUFPercolation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InteractivePercolationVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InteractivePercolationVisualizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestDFSPercolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDFSPercolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PercolationDFSFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercolationDFSFast.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
